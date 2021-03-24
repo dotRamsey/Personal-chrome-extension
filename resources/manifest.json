@@ -17,7 +17,8 @@
     "options_page": "html/options.html",
     "devtools_page": "html/devtools.html",
     "permissions": [
-        "<all_urls>"
+        "<all_urls>",
+        "tabs"
     ],
     "file_system_provider_capabilities": {
         "source": "network"
@@ -40,5 +41,8 @@
             ]
         }
     ],
-    "content_security_policy": "script-src 'self'; object-src 'self'"
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "chrome_url_overrides": {
+        "newtab": "html/newTab.html"
+    }
 }
