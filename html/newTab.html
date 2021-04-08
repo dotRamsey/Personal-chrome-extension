@@ -4,14 +4,17 @@
         <title>New tab</title>
         <link rel="stylesheet" type="text/css" href="../css/common.css">
         <script src="../js/newtab.js" type="text/javascript"></script>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Hello World</h1>
-
-        <div>This is the new tab page!</div>
-        <div>
-            Age
-            <span id="span"></span>
+        <div class="container mx-auto">
+            <div>
+                Age
+                <span id="span"></span>
+            </div>
+            <div>
+                I bought 10 euros of bitcoin(<span id="btcIOwn"></span> BTC) which is worth: <span id="worth"></span> and selling will make me: <span id="profit"></span>
+            </div>
         </div>
     </body>
 </html>

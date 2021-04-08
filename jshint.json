@@ -18,5 +18,6 @@
         "describe": true,
         "afterEach": true,
         "it": true
-    }
+    },
+    "esversion": 6
 }
